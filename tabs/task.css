@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Goros, Arial, sens-serif;
+    background-color: #fff !important;
+}
+
+.content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: #fff !important;
+}
+
+.tab__navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #fff !important;
+}
+
+.tab {
+  cursor: pointer;
+}
+
+.tab_active {
+  color: blue;
+}
+
+.tab__content {
+  display: none;
+  padding: 20px;
+}
+.tab__content_active {
+  display: block;
+}
+

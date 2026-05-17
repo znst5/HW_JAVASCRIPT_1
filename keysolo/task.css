@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Golos, Arial, sans-serif;
+    background-color: #fff !important;
+}
+
+.content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: #fff !important;
+}
+
+.symbol {
+  font-size: 50px;
+}
+
+.symbol_correct {
+  color: green;
+}
+
+.word_incorrect {
+  background: red;
+  color: #fff;
+}
+
